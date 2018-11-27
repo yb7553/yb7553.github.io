@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>盐巴巴架构师技术博客</title>
+  
+  <subtitle>好的架构是码农的春天，不用加班、有时间泡妞</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-11-26T09:40:51.650Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>严彬</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker基础架构</title>
+    <link href="http://yoursite.com/2018/11/21/hello-world/"/>
+    <id>http://yoursite.com/2018/11/21/hello-world/</id>
+    <published>2018-11-21T06:55:44.266Z</published>
+    <updated>2018-11-26T09:40:51.650Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-0f77a07c50f709a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-0f77a07c50f709a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
