@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-28T05:24:25.152Z</updated>
+  <updated>2018-11-28T06:29:56.977Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>elk日志平台架构</title>
+    <link href="http://yoursite.com/2018/11/28/elk/"/>
+    <id>http://yoursite.com/2018/11/28/elk/</id>
+    <published>2018-11-28T06:28:30.000Z</published>
+    <updated>2018-11-28T06:29:56.977Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-a526f43729271c54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-a526f43729271c54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>idea开发架构</title>
