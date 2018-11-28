@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-28T03:04:05.442Z</updated>
+  <updated>2018-11-28T03:14:47.098Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BI数据架构</title>
+    <link href="http://yoursite.com/2018/11/28/bi/"/>
+    <id>http://yoursite.com/2018/11/28/bi/</id>
+    <published>2018-11-28T03:13:58.000Z</published>
+    <updated>2018-11-28T03:14:47.098Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-4591d567c4b177e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-4591d567c4b177e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>spring cloud微服务</title>
