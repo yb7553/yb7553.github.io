@@ -143,19 +143,19 @@
   </entry>
   
   <entry>
-    <title>docker基础架构</title>
+    <title>基于Docker的开发环境、测试环境和生产环境的持续集成和持续交付</title>
     <link href="http://yoursite.com/2018/11/28/devops/"/>
     <id>http://yoursite.com/2018/11/28/devops/</id>
     <published>2018-11-28T02:11:49.592Z</published>
-    <updated>2018-11-29T00:51:20.202Z</updated>
+    <updated>2018-11-29T00:56:52.719Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-a87aa3812e76ab4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="https://upload-images.jianshu.io/upload_images/5189695-6c33f5f5aa01f7c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-6c33f5f5aa01f7c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-a87aa3812e76ab4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot;
+        &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-6c33f5f5aa01f7c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot;
       
     
     </summary>
