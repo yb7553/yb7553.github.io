@@ -24,6 +24,12 @@
     <title><![CDATA[BI数据架构]]></title>
     <url>%2F2018%2F11%2F28%2Fbi%2F</url>
     <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>决策分析</category>
+      </categories>
+      <tags>
+        <tag>bi</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[spring cloud微服务]]></title>
@@ -39,6 +45,12 @@
     <title><![CDATA[基于Docker的开发环境、测试环境和生产环境的持续集成和持续交付]]></title>
     <url>%2F2018%2F11%2F28%2Fdevops%2F</url>
     <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>自动化构建</category>
+      </categories>
+      <tags>
+        <tag>devops</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[docker基础架构]]></title>
