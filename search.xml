@@ -25,7 +25,13 @@
   <entry>
     <title><![CDATA[网络结构图]]></title>
     <url>%2F2018%2F11%2F29%2Fnetwork%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[主流的设计一般会采用微服务架构。其思路不是开发一个巨大的单体式应用，而是将应用分解为小的、互相连接的微服务。一个微服务完成某个特定功能，比如乘客管理和下单管理等。每个微服务都有自己的业务逻辑和适配器。一些微服务还会提供API接口给其他微服务和应用客户端使用。]]></content>
+      <categories>
+        <category>基础设施</category>
+      </categories>
+      <tags>
+        <tag>base</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[elk日志平台架构]]></title>
@@ -41,7 +47,13 @@
   <entry>
     <title><![CDATA[idea开发架构]]></title>
     <url>%2F2018%2F11%2F28%2Fidea%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[随着Google宣布基于IntelliJ Platform二次开发的Android IDE即Android Studio成为Android官方唯一指定的IDE，且Eclipse ADT不再维护，IntelliJ IDEA备受关注再次迎来了快速发展的时刻，如今越来越多的程序员开始尝试使用IntelliJ IDEA并作为日常开发工具，并且JetBrains旗下也推出了PyCharm（Python IDE）、PhpStorm（世界上最好的编程语言，没有之一–PHP）、WebStorm（前端开发工具）以及GoLand（Go语言IDE，够烂的，显然JetBrains没问问中国程序员这名字起的好不好）等等，于是有这么一句话“JetBrains出品，必属精品”]]></content>
+      <categories>
+        <category>开发工具</category>
+      </categories>
+      <tags>
+        <tag>idea</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[微服务高可用]]></title>
