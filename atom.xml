@@ -150,19 +150,20 @@
     <link href="http://yoursite.com/2018/11/28/spring-cloud/"/>
     <id>http://yoursite.com/2018/11/28/spring-cloud/</id>
     <published>2018-11-28T10:37:21.000Z</published>
-    <updated>2018-11-29T00:59:13.077Z</updated>
+    <updated>2018-12-11T02:27:37.018Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-fb5af178b28c633a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>2008年以后，国内互联网行业飞速发展，我们对软件系统的需求已经不再是过去”能用就行”这种很low的档次了，像抢红包、双十一这样的活动不断逼迫我们去突破软件系统的性能上限，传统的IT企业”能用就行”的开发思想已经不能满足互联网高并发、大流量的性能要求。系统架构走向分布式已经是服务器开发领域解决该问题唯一的出路，然而分布式系统由于天生的复杂度，并不像开发单体应用一样把框架一堆就能搞定，因此各大互联网公司都在投入技术力量研发自己的基础设施。这里面比较有名的如阿里的开源项目dubbo, Netflix开发的一系列服务框架。在这种“百花齐放”、重复造轮子的状况下，必然要出现一种统一的标准来简化分布式系统的开发，Spring Cloud应运而生。<br><a id="more"></a><br><img src="https://upload-images.jianshu.io/upload_images/5189695-fb5af178b28c633a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-fb5af178b28c633a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot;
-      
+      &lt;p&gt;2008年以后，国内互联网行业飞速发展，我们对软件系统的需求已经不再是过去”能用就行”这种很low的档次了，像抢红包、双十一这样的活动不断逼迫我们去突破软件系统的性能上限，传统的IT企业”能用就行”的开发思想已经不能满足互联网高并发、大流量的性能要求。系统架构走向分布式已经是服务器开发领域解决该问题唯一的出路，然而分布式系统由于天生的复杂度，并不像开发单体应用一样把框架一堆就能搞定，因此各大互联网公司都在投入技术力量研发自己的基础设施。这里面比较有名的如阿里的开源项目dubbo, Netflix开发的一系列服务框架。在这种“百花齐放”、重复造轮子的状况下，必然要出现一种统一的标准来简化分布式系统的开发，Spring Cloud应运而生。&lt;br&gt;
     
     </summary>
     
+      <category term="微服务" scheme="http://yoursite.com/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+    
+      <category term="spring cloud" scheme="http://yoursite.com/tags/spring-cloud/"/>
     
   </entry>
   
@@ -171,7 +172,7 @@
     <link href="http://yoursite.com/2018/11/28/devops-1/"/>
     <id>http://yoursite.com/2018/11/28/devops-1/</id>
     <published>2018-11-28T10:21:13.000Z</published>
-    <updated>2018-12-11T02:11:27.712Z</updated>
+    <updated>2018-12-11T02:11:49.940Z</updated>
     
     <content type="html"><![CDATA[<p>随着互联网对传统企业的冲击，需要更快的业务试错与业务创新，其背后本质是企业IT的精益运营，让软件的生产、交付、获取、升级、遥测变得自动与自助，近两年，DevOps在传统企业也开始备受关注与各种尝试。<br><a id="more"></a><br><img src="https://upload-images.jianshu.io/upload_images/5189695-a87aa3812e76ab4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
     
