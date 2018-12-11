@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-11T01:36:32.077Z</updated>
+  <updated>2018-12-11T02:44:10.873Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BI数据架构</title>
+    <link href="http://yoursite.com/2018/12/11/bi/"/>
+    <id>http://yoursite.com/2018/12/11/bi/</id>
+    <published>2018-12-11T11:13:58.000Z</published>
+    <updated>2018-12-11T02:44:10.873Z</updated>
+    
+    <content type="html"><![CDATA[<p>马云曾经在一次演讲中说道：“人类正从IT时代走向DT时代”。<br>IT是我们已经非常熟悉了，是信息技术（Information Technology）的英文缩写，而DT则是数据处理技术（Data Technology）的英文缩写。<br>那么，DT与IT有什么不一样呢？马云提出，IT时代是以自我控制、自我管理为主，而DT时代，它是以服务大众、激发生产力为主的技术。这两者之间看起来似乎是一种技术的差异，但实际上是思想观念层面的差异。<br>接下来，我们就来看看，DT时代下，BI是如何服务企业、助力企业的？<br><a id="more"></a><br><img src="https://upload-images.jianshu.io/upload_images/5189695-4591d567c4b177e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;马云曾经在一次演讲中说道：“人类正从IT时代走向DT时代”。&lt;br&gt;IT是我们已经非常熟悉了，是信息技术（Information Technology）的英文缩写，而DT则是数据处理技术（Data Technology）的英文缩写。&lt;br&gt;那么，DT与IT有什么不一样呢？马云提出，IT时代是以自我控制、自我管理为主，而DT时代，它是以服务大众、激发生产力为主的技术。这两者之间看起来似乎是一种技术的差异，但实际上是思想观念层面的差异。&lt;br&gt;接下来，我们就来看看，DT时代下，BI是如何服务企业、助力企业的？&lt;br&gt;
+    
+    </summary>
+    
+      <category term="决策分析" scheme="http://yoursite.com/categories/%E5%86%B3%E7%AD%96%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="bi" scheme="http://yoursite.com/tags/bi/"/>
+    
+  </entry>
   
   <entry>
     <title>docker基础架构</title>
@@ -120,28 +142,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>BI数据架构</title>
-    <link href="http://yoursite.com/2018/11/28/bi/"/>
-    <id>http://yoursite.com/2018/11/28/bi/</id>
-    <published>2018-11-28T11:13:58.000Z</published>
-    <updated>2018-12-10T10:08:29.158Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://upload-images.jianshu.io/upload_images/5189695-4591d567c4b177e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><a id="more"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/5189695-4591d567c4b177e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot;&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="决策分析" scheme="http://yoursite.com/categories/%E5%86%B3%E7%AD%96%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="bi" scheme="http://yoursite.com/tags/bi/"/>
     
   </entry>
   
