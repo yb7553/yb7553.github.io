@@ -133,17 +133,21 @@
 
 
 
-  <meta property="og:type" content="article">
+  <meta name="description" content="此外还要注意日志收集的部分。像传统的方法存在一个问题，在 Docker 环境下，一个宿主机上面有很多不同服务的业务实例，那这些日志怎么办？难道要按个做脚本采集文件信息吗？更大的问题是你是有 file 的，如果是云上买的，你可能需要扩大磁盘的容量，因为你有可能需要做监控脚本，清理日志。在做到微服务、容器化之后，第一个要做的就是让你的日志减少，这样就没有文件，直接通过 SDD Out 的方式，对 lo">
+<meta name="keywords" content="log">
+<meta property="og:type" content="article">
 <meta property="og:title" content="elk日志平台架构">
 <meta property="og:url" content="http://yoursite.com/2018/11/28/elk/index.html">
 <meta property="og:site_name" content="架构的春天">
+<meta property="og:description" content="此外还要注意日志收集的部分。像传统的方法存在一个问题，在 Docker 环境下，一个宿主机上面有很多不同服务的业务实例，那这些日志怎么办？难道要按个做脚本采集文件信息吗？更大的问题是你是有 file 的，如果是云上买的，你可能需要扩大磁盘的容量，因为你有可能需要做监控脚本，清理日志。在做到微服务、容器化之后，第一个要做的就是让你的日志减少，这样就没有文件，直接通过 SDD Out 的方式，对 lo">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5189695-33f92605c263a270.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5189695-dd431d6c098f27df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5189695-59bf65779f817045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2018-11-29T05:43:49.631Z">
+<meta property="og:updated_time" content="2018-12-11T02:17:01.380Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="elk日志平台架构">
+<meta name="twitter:description" content="此外还要注意日志收集的部分。像传统的方法存在一个问题，在 Docker 环境下，一个宿主机上面有很多不同服务的业务实例，那这些日志怎么办？难道要按个做脚本采集文件信息吗？更大的问题是你是有 file 的，如果是云上买的，你可能需要扩大磁盘的容量，因为你有可能需要做监控脚本，清理日志。在做到微服务、容器化之后，第一个要做的就是让你的日志减少，这样就没有文件，直接通过 SDD Out 的方式，对 lo">
 <meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/5189695-33f92605c263a270.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
@@ -489,11 +493,29 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-11-29 05:43:49" itemprop="dateModified" datetime="2018-11-29T05:43:49Z">2018-11-29</time>
+                <time title="修改时间：2018-12-11 02:17:01" itemprop="dateModified" datetime="2018-12-11T02:17:01Z">2018-12-11</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/日志管理/" itemprop="url" rel="index"><span itemprop="name">日志管理</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -543,7 +565,8 @@
       
 
       
-        <p><img src="https://upload-images.jianshu.io/upload_images/5189695-33f92605c263a270.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+        <p>此外还要注意日志收集的部分。像传统的方法存在一个问题，在 Docker 环境下，一个宿主机上面有很多不同服务的业务实例，那这些日志怎么办？难道要按个做脚本采集文件信息吗？更大的问题是你是有 file 的，如果是云上买的，你可能需要扩大磁盘的容量，因为你有可能需要做监控脚本，清理日志。在做到微服务、容器化之后，第一个要做的就是让你的日志减少，这样就没有文件，直接通过 SDD Out 的方式，对 logstash、sleuth 采集起来之后，可以直接送日志数据，中间不会产生一个日志，不会清理。因为我们之前一开始还没有做这套运维基础的时候，经常都需要手工的清日志，在业务量突增的时候会产生很多日志。我们做征信的时候中间要打很多日志，可能一次请求里面要打十几兆的日志，因为涉及到的第三方数据源实在太多了，中间有很多计算的过程也要打印下来，否则的话没法知道中间到底出了什么问题。<br><a id="more"></a></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/5189695-33f92605c263a270.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 <p><img src="https://upload-images.jianshu.io/upload_images/5189695-dd431d6c098f27df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 <p><img src="https://upload-images.jianshu.io/upload_images/5189695-59bf65779f817045.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 
@@ -612,6 +635,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/log/" rel="tag"> <i class="fa fa-tag"></i> log</a>
+          
+        </div>
       
 
       
@@ -717,7 +746,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -734,7 +765,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -863,7 +896,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.2k字</span>
+  <span class="post-count">博客全站共2.5k字</span>
 </div>
 </div>
         
