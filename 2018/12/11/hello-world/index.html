@@ -133,19 +133,19 @@
 
 
 
-  <meta name="description" content="在持续集成与部署方面，我们主要还是在用 svn、git、jenkins、docker。通过 jenkins 我们自己做了一个自动化接口测试平台。目前只是做接口测试，而性能测试在大版本发布之前会集中来做。通过我们的测试，构建之后会发到 harbor，一个企业级的镜像仓库，而实际的部署，是用到 rancher，不可否认 rancher 是在容器管理编排方面的小白入门的利器，我们开始用它也是因为它的界面">
-<meta name="keywords" content="devops">
+  <meta name="description" content="首先我们从 “Hello from Docker!”开始，docker 经过了这些步骤  docker 客户端连接 docker daemon 进程。 docker daemon 向 docker hub 请求 “hello-world”镜像。 docker daemon 从这个镜像，创建一个新的容器并产生了你看到的输出内容。 docker daemon 流输出到 docker 客户端 ，并输出到">
+<meta name="keywords" content="docker">
 <meta property="og:type" content="article">
 <meta property="og:title" content="docker基础架构">
 <meta property="og:url" content="http://yoursite.com/2018/12/11/hello-world/index.html">
 <meta property="og:site_name" content="架构的春天">
-<meta property="og:description" content="在持续集成与部署方面，我们主要还是在用 svn、git、jenkins、docker。通过 jenkins 我们自己做了一个自动化接口测试平台。目前只是做接口测试，而性能测试在大版本发布之前会集中来做。通过我们的测试，构建之后会发到 harbor，一个企业级的镜像仓库，而实际的部署，是用到 rancher，不可否认 rancher 是在容器管理编排方面的小白入门的利器，我们开始用它也是因为它的界面">
+<meta property="og:description" content="首先我们从 “Hello from Docker!”开始，docker 经过了这些步骤  docker 客户端连接 docker daemon 进程。 docker daemon 向 docker hub 请求 “hello-world”镜像。 docker daemon 从这个镜像，创建一个新的容器并产生了你看到的输出内容。 docker daemon 流输出到 docker 客户端 ，并输出到">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/5189695-0f77a07c50f709a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2018-12-11T01:36:32.077Z">
+<meta property="og:updated_time" content="2018-12-12T00:46:52.353Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="docker基础架构">
-<meta name="twitter:description" content="在持续集成与部署方面，我们主要还是在用 svn、git、jenkins、docker。通过 jenkins 我们自己做了一个自动化接口测试平台。目前只是做接口测试，而性能测试在大版本发布之前会集中来做。通过我们的测试，构建之后会发到 harbor，一个企业级的镜像仓库，而实际的部署，是用到 rancher，不可否认 rancher 是在容器管理编排方面的小白入门的利器，我们开始用它也是因为它的界面">
+<meta name="twitter:description" content="首先我们从 “Hello from Docker!”开始，docker 经过了这些步骤  docker 客户端连接 docker daemon 进程。 docker daemon 向 docker hub 请求 “hello-world”镜像。 docker daemon 从这个镜像，创建一个新的容器并产生了你看到的输出内容。 docker daemon 流输出到 docker 客户端 ，并输出到">
 <meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/5189695-0f77a07c50f709a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
@@ -474,12 +474,24 @@
                 
               
 
-              <time title="创建时间：2018-12-11 10:13:58 / 修改时间：01:36:32" itemprop="dateCreated datePublished" datetime="2018-12-11T10:13:58Z">2018-12-11</time>
+              <time title="创建时间：2018-12-11 10:13:58" itemprop="dateCreated datePublished" datetime="2018-12-11T10:13:58Z">2018-12-11</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-12-12 00:46:52" itemprop="dateModified" datetime="2018-12-12T00:46:52Z">2018-12-12</time>
               
             
           </span>
@@ -496,7 +508,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/自动化构建/" itemprop="url" rel="index"><span itemprop="name">自动化构建</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/容器技术/" itemprop="url" rel="index"><span itemprop="name">容器技术</span></a></span>
 
                 
                 
@@ -551,7 +563,14 @@
       
 
       
-        <p>在持续集成与部署方面，我们主要还是在用 svn、git、jenkins、docker。通过 jenkins 我们自己做了一个自动化接口测试平台。目前只是做接口测试，而性能测试在大版本发布之前会集中来做。通过我们的测试，构建之后会发到 harbor，一个企业级的镜像仓库，而实际的部署，是用到 rancher，不可否认 rancher 是在容器管理编排方面的小白入门的利器，我们开始用它也是因为它的界面比较清爽，用起来比较简单。在 rancher 上主要实现两个方案，一个是部署，一个是升级。<br><a id="more"></a></p>
+        <p>首先我们从 “Hello from Docker!”开始，docker 经过了这些步骤</p>
+<ul>
+<li>docker 客户端连接 docker daemon 进程。</li>
+<li>docker daemon 向 docker hub 请求 “hello-world”镜像。</li>
+<li>docker daemon 从这个镜像，创建一个新的容器并产生了你看到的输出内容。</li>
+<li>docker daemon 流输出到 docker 客户端 ，并输出到你的终端。<a id="more"></a>
+</li>
+</ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/5189695-0f77a07c50f709a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 <h1 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h1><h2 id="一、docker基础概念"><a href="#一、docker基础概念" class="headerlink" title="一、docker基础概念"></a>一、docker基础概念</h2><p>Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的Linux机器上，也可以实现虚拟化，容器是完全使用沙箱机制，相互之间不会有任何接口。</p>
 <h4 id="1、Docker有以下几个部分组成："><a href="#1、Docker有以下几个部分组成：" class="headerlink" title="1、Docker有以下几个部分组成："></a>1、Docker有以下几个部分组成：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- Client客户端</span><br><span class="line">- Docker Daemon守护进程</span><br><span class="line">- Docker Image镜像</span><br><span class="line">- DockerContainer容器</span><br><span class="line">- Registry镜像仓库</span><br></pre></td></tr></table></figure>
@@ -630,7 +649,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/devops/" rel="tag"> <i class="fa fa-tag"></i> devops</a>
+            <a href="/tags/docker/" rel="tag"> <i class="fa fa-tag"></i> docker</a>
           
         </div>
       
@@ -755,7 +774,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -780,7 +801,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -925,7 +948,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共3.4k字</span>
+  <span class="post-count">博客全站共3.3k字</span>
 </div>
 </div>
         
