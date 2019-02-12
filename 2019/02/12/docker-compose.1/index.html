@@ -133,16 +133,18 @@
 
 
 
-  <meta name="description" content="加班泡妞">
-<meta property="og:type" content="website">
-<meta property="og:title" content="架构的春天">
-<meta property="og:url" content="http://yoursite.com/categories/自动化构建/index.html">
+  <meta name="description" content="环境内容Redis、MySQL、RabbitMQ 版本选择   软件包 镜像版本     Redis row 1 col 2   MySQL row 2 col 2   RabbitMQ row 2 col 2    文件目录├── Dockerfile.redis ├── conf │   └── redis.conf └── docker-compose.yaml Dockerfile.red">
+<meta name="keywords" content="devops">
+<meta property="og:type" content="article">
+<meta property="og:title" content="docker-compose部署开发环境-Redis、MySQL、RabbitMQ">
+<meta property="og:url" content="http://yoursite.com/2019/02/12/docker-compose.1/index.html">
 <meta property="og:site_name" content="架构的春天">
-<meta property="og:description" content="加班泡妞">
+<meta property="og:description" content="环境内容Redis、MySQL、RabbitMQ 版本选择   软件包 镜像版本     Redis row 1 col 2   MySQL row 2 col 2   RabbitMQ row 2 col 2    文件目录├── Dockerfile.redis ├── conf │   └── redis.conf └── docker-compose.yaml Dockerfile.red">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-02-12T02:29:27.257Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="架构的春天">
-<meta name="twitter:description" content="加班泡妞">
+<meta name="twitter:title" content="docker-compose部署开发环境-Redis、MySQL、RabbitMQ">
+<meta name="twitter:description" content="环境内容Redis、MySQL、RabbitMQ 版本选择   软件包 镜像版本     Redis row 1 col 2   MySQL row 2 col 2   RabbitMQ row 2 col 2    文件目录├── Dockerfile.redis ├── conf │   └── redis.conf └── docker-compose.yaml Dockerfile.red">
 
 
 
@@ -151,7 +153,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/自动化构建/">
+  <link rel="canonical" href="http://yoursite.com/2019/02/12/docker-compose.1/">
 
 
 
@@ -161,7 +163,7 @@
   };
 </script>
 
-  <title>分类: 自动化构建 | 架构的春天</title>
+  <title>docker-compose部署开发环境-Redis、MySQL、RabbitMQ | 架构的春天</title>
   
 
 
@@ -210,7 +212,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     <a href="https://github.com/yb7553"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
 
@@ -303,7 +305,7 @@
         
         
           
-          <li class="menu-item menu-item-categories menu-item-active">
+          <li class="menu-item menu-item-categories">
 
     
     
@@ -408,138 +410,289 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>自动化构建<small>分类</small>
-        </h1>
-      </div>
-
-      
-        
+  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/12/docker-compose.1/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="严彬">
+      <meta itemprop="description" content="加班泡妞">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="架构的春天">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/02/12/docker-compose.1/" itemprop="url">
-              
-                <span itemprop="name">docker-compose部署开发环境-Redis、MySQL、RabbitMQ</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">docker-compose部署开发环境-Redis、MySQL、RabbitMQ
+              
+            
+          </h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-02-12T02:05:03Z" content="2019-02-12">
-          02-12
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
 
-    </header>
-  </article>
+            
+            
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-02-12 02:05:03 / 修改时间：02:29:27" itemprop="dateCreated datePublished" datetime="2019-02-12T02:05:03Z">2019-02-12</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/自动化构建/" itemprop="url" rel="index"><span itemprop="name">自动化构建</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/02/12/docker-compose.1/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/02/12/docker-compose.1/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/02/12/docker-compose.1/" class="leancloud_visitors" data-flag-title="docker-compose部署开发环境-Redis、MySQL、RabbitMQ">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/11/28/devops-1/" itemprop="url">
-              
-                <span itemprop="name">DevOps最佳实践</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-11-28T10:21:13Z" content="2018-11-28">
-          11-28
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/11/28/devops/" itemprop="url">
-              
-                <span itemprop="name">基于Docker的开发环境、测试环境和生产环境的持续集成和持续交付</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-11-28T02:11:49Z" content="2018-11-28">
-          11-28
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <h3 id="环境内容"><a href="#环境内容" class="headerlink" title="环境内容"></a>环境内容</h3><p>Redis、MySQL、RabbitMQ</p>
+<h3 id="版本选择"><a href="#版本选择" class="headerlink" title="版本选择"></a>版本选择</h3><table>
+<thead>
+<tr>
+<th>软件包</th>
+<th>镜像版本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Redis</td>
+<td>row 1 col 2</td>
+</tr>
+<tr>
+<td>MySQL</td>
+<td>row 2 col 2</td>
+</tr>
+<tr>
+<td>RabbitMQ</td>
+<td>row 2 col 2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="文件目录"><a href="#文件目录" class="headerlink" title="文件目录"></a>文件目录</h3><p>├── Dockerfile.redis</p>
+<p>├── conf</p>
+<p>│   └── redis.conf</p>
+<p>└── docker-compose.yaml</p>
+<h3 id="Dockerfile-redis"><a href="#Dockerfile-redis" class="headerlink" title="Dockerfile.redis"></a>Dockerfile.redis</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">FROM redis:4.0.7-alpine</span><br><span class="line"></span><br><span class="line">MAINTAINER &quot;sxp&quot; &lt;1013580089@qq.com&gt;</span><br><span class="line"></span><br><span class="line">RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \</span><br><span class="line">	&amp;&amp; mkdir -p /home/redis/conf</span><br><span class="line"></span><br><span class="line">COPY ./conf/redis.conf /home/redis/conf/redis.conf</span><br><span class="line"></span><br><span class="line">CMD [ &quot;redis-server&quot;, &quot;/home/redis/conf/redis.conf&quot; ]</span><br></pre></td></tr></table></figure>
+<h3 id="redis-conf"><a href="#redis-conf" class="headerlink" title="redis.conf"></a>redis.conf</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># redis 端口设置</span><br><span class="line">port 6379 </span><br><span class="line"># 配置数据持久化</span><br><span class="line">appendonly yes</span><br><span class="line"># 密码</span><br><span class="line">requirepass 123456</span><br><span class="line"># 发布key事件，使用过期事件（当每一个key失效时，都会生成该事件）。</span><br><span class="line">notify-keyspace-events Ex</span><br></pre></td></tr></table></figure>
+<h3 id="docker-compose-yaml"><a href="#docker-compose-yaml" class="headerlink" title="docker-compose.yaml"></a>docker-compose.yaml</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"># 定义docker-compose版本，有些参数只有高版本才有，低版本没有</span><br><span class="line">version: &apos;3.0&apos;</span><br><span class="line"># 定义服务，可以是一个，也可以是多个</span><br><span class="line">services:</span><br><span class="line">	# 具体的服务名，其他的服务可以用过这个名字访问</span><br><span class="line">    mysql:</span><br><span class="line">    	# 定义这个服务所使用的镜像以及镜像版本，若不指定版本默认是latest，生产环境不建议使用latest</span><br><span class="line">        image: hub.c.163.com/yb7553/mysql:latest</span><br><span class="line">        restart: always</span><br><span class="line">        container_name: vic-mysql</span><br><span class="line">        # 环境变量设置，key=value</span><br><span class="line">        environment:</span><br><span class="line">            MYSQL_ROOT_PASSWORD: 123456</span><br><span class="line">        # 定义暴露端口，若写成 &apos;3306:3306/tcp&apos; 的格式则表示指定宿主机的80转发到容器的3306，若写成 &apos;3306/tcp&apos; 则表示Docker将随机分配一个宿主机端口给容器内的3306端口，tcp表示协议类型，也可以是udp</span><br><span class="line">        ports:</span><br><span class="line">            - &quot;3306:3306/tcp&quot;</span><br><span class="line">        # 网络定义部分</span><br><span class="line">        networks:</span><br><span class="line">        	# 定义这个容器运行在哪个虚拟网络里面</span><br><span class="line">            vic:</span><br><span class="line">            	# 设置这个容器在网络中的别名，可以是一个，可以是多个，其他的服务可以用过这个名字访问</span><br><span class="line">                aliases:</span><br><span class="line">                    - mysql</span><br><span class="line">        # 定义卷，可以是卷，也可以是目录，可以设置容器内的权限是什么</span><br><span class="line">        volumes:</span><br><span class="line">        	# 格式：src:dest:mode</span><br><span class="line">        	# src: 可以是卷名，宿主机目录等，可以是文件或者目录，若是文件则文件必须存在，否则会是目录的形式挂载</span><br><span class="line">        	# dest: 容器内的路径，可以是文件可以是目录，若是文件则文件必须存在，否则会是目录的形式挂载</span><br><span class="line">        	# mode: 权限，只读(ro)，可读可写(rw)</span><br><span class="line">            - /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime:ro</span><br><span class="line">    rabbitmq:</span><br><span class="line">        image: rabbitmq:3.7.3-management-alpine</span><br><span class="line">        container_name: vic-rabbitmq</span><br><span class="line">        ports:</span><br><span class="line">            - &quot;5672:5672&quot;</span><br><span class="line">            - &quot;15672:15672&quot;</span><br><span class="line">        environment:</span><br><span class="line">            RABBITMQ_DEFAULT_USER: guest</span><br><span class="line">            RABBITMQ_DEFAULT_PASS: guest</span><br><span class="line">        networks:</span><br><span class="line">            vic:</span><br><span class="line">                aliases:</span><br><span class="line">                    - rabbitmq</span><br><span class="line">        volumes:</span><br><span class="line">            - ./mysql:/var/lib/mysql</span><br><span class="line">            - /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime:ro</span><br><span class="line">    redis:</span><br><span class="line">        image: hub.c.163.com/yb7553/redis:latest</span><br><span class="line">        build:</span><br><span class="line">            context: .</span><br><span class="line">            dockerfile: Dockerfile.redis</span><br><span class="line">        container_name: vic-redis_single</span><br><span class="line">        ports:</span><br><span class="line">            - &quot;6379:6379&quot;</span><br><span class="line">        networks:</span><br><span class="line">            vic:</span><br><span class="line">                aliases:</span><br><span class="line">                    - redis</span><br><span class="line">        volumes:</span><br><span class="line">            - ./data:/redis-data:rw</span><br><span class="line"># 定义这个compose文件中使用的网络</span><br><span class="line">networks:</span><br><span class="line">	# 网络名称，和上文中的pig一致。</span><br><span class="line">    vic:</span><br><span class="line">    	# 是否是外部网络，理解为如果是外部网络那么网络的名字就叫pig，这样方便其他的服务接入到这个网络，如果不是，在你使用docker-compose up -d 命令的时候他会以你当前的文件夹的名字加上这里定义的网络名作为你这个compose的网络。</span><br><span class="line">        external: true</span><br></pre></td></tr></table></figure>
+<h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 生成网络</span><br><span class="line">docker network create vic</span><br><span class="line"># 查看网络</span><br><span class="line">[root@localhost compose]# docker network list</span><br><span class="line">NETWORK ID          NAME                   DRIVER              SCOPE</span><br><span class="line">d43944f3cb12        pig                    bridge              local</span><br><span class="line"># 启动</span><br><span class="line">[root@localhost compose]# docker-compose up -d</span><br></pre></td></tr></table></figure>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    <div>
+    
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-heart"></i>感谢阅读-------------</div>
+    
+</div>
+
+    
+    </div>
+    
+
+    
+
+    
+       
+    
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="严彬 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.png" alt="严彬 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/devops/" rel="tag"> <i class="fa fa-tag"></i> devops</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/11/bi/" rel="next" title="BI数据架构">
+                <i class="fa fa-chevron-left"></i> BI数据架构
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -560,8 +713,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -704,6 +866,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#环境内容"><span class="nav-number">1.</span> <span class="nav-text">环境内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#版本选择"><span class="nav-number">2.</span> <span class="nav-text">版本选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文件目录"><span class="nav-number">3.</span> <span class="nav-text">文件目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dockerfile-redis"><span class="nav-number">4.</span> <span class="nav-text">Dockerfile.redis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#redis-conf"><span class="nav-number">5.</span> <span class="nav-text">redis.conf</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#docker-compose-yaml"><span class="nav-number">6.</span> <span class="nav-text">docker-compose.yaml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#启动"><span class="nav-number">7.</span> <span class="nav-text">启动</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -866,6 +1044,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
 
   
 
@@ -1260,43 +1442,42 @@
   
   <script>
     
-    function showTime(Counter) {
-      var entries = [];
+    function addCount(Counter) {
       var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
 
-      $visitors.each(function () {
-        entries.push( $(this).attr("id").trim() );
-      });
-
-      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { "$in": entries } }) })
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
         .done(function ({ results }) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.url;
-            var time = item.time;
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
+          if (results.length > 0) {
+            var counter = results[0];
+            
+            Counter('put', `/classes/Counter/${counter.objectId}`, JSON.stringify({ time: { "__op":"Increment", "amount":1 } }))
+            
+            .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.time + 1);
+            })
+            
+            .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+            })
+          } else {
+            
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1}))
+                .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function () {
+                  console.log('Failed to create');
+                });
+            
           }
         })
-        .fail(function ({ responseJSON }) {
-          console.log("LeanCloud Counter Error: " + responseJSON.code + " " + responseJSON.error);
-        });
+      .fail(function ({ responseJSON }) {
+        console.log('LeanCloud Counter Error:' + responseJSON.code + " " + responseJSON.error);
+      });
     }
     
 
@@ -1316,9 +1497,7 @@
             });
           };
           
-          if ($('.post-title-link').length >= 1) {
-            showTime(Counter);
-          }
+          addCount(Counter);
           
         })
     });
